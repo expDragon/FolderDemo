@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FolderServer", "FolderServer\FolderServer.vcxproj", "{9ECFD051-31D2-4631-8070-5C46B670CC12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FolderServerPS", "FolderServer\FolderServerPS.vcxproj", "{3AC531DF-9501-49B3-BF2D-BF32CCF252D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9ECFD051-31D2-4631-8070-5C46B670CC12} = {9ECFD051-31D2-4631-8070-5C46B670CC12}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FolderDemo", "FolderDemo\FolderDemo.vcxproj", "{7AF19AD0-8202-4E4E-A429-CB48251410D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ECFD051-31D2-4631-8070-5C46B670CC12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9ECFD051-31D2-4631-8070-5C46B670CC12}.Debug|Win32.Build.0 = Debug|Win32
+		{9ECFD051-31D2-4631-8070-5C46B670CC12}.Release|Win32.ActiveCfg = Release|Win32
+		{9ECFD051-31D2-4631-8070-5C46B670CC12}.Release|Win32.Build.0 = Release|Win32
+		{3AC531DF-9501-49B3-BF2D-BF32CCF252D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AC531DF-9501-49B3-BF2D-BF32CCF252D4}.Release|Win32.ActiveCfg = Release|Win32
+		{7AF19AD0-8202-4E4E-A429-CB48251410D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7AF19AD0-8202-4E4E-A429-CB48251410D9}.Debug|Win32.Build.0 = Debug|Win32
+		{7AF19AD0-8202-4E4E-A429-CB48251410D9}.Release|Win32.ActiveCfg = Release|Win32
+		{7AF19AD0-8202-4E4E-A429-CB48251410D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

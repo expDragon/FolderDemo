@@ -1,0 +1,15 @@
+#pragma once
+class CFolder
+{
+public:
+	CFolder(void);
+	virtual ~CFolder(void);
+
+public:
+	/*复制目录中的所有内容*/
+	static BOOL CopyFolder(LPCTSTR pstrSrcFolder, LPCTSTR pstrDstFolder);
+
+	/*删除目录及目录中的所有内容*/
+	static BOOL DeleteFolder(LPCTSTR pstrFolder);
+};
+
